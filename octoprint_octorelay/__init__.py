@@ -25,7 +25,7 @@ class OctoRelayPlugin(
 		return dict(
 			r1=dict(
 				active = True,
-				relay_pin = 4,
+				relay_pin = 2,
 				inverted_output = True,
 				initial_value = False,
 				iconOn = "&#128161;",
@@ -38,7 +38,7 @@ class OctoRelayPlugin(
 			),
 			r2=dict(
 				active = True,
-				relay_pin = 17,
+				relay_pin = 3,
 				inverted_output = True,
 				initial_value = False,
 				iconOn = """<img src="/plugin/octorelay/static/img/3d-printer.png" highth="24" width="24">""",
@@ -51,7 +51,7 @@ class OctoRelayPlugin(
 			),
 			r3=dict(
 				active = True,
-				relay_pin = 18,
+				relay_pin = 4,
 				inverted_output = True,
 				initial_value = False,
 				iconOn = """<img highth="24" width="24" src="/plugin/octorelay/static/img/fan-24.png" >""",
@@ -64,7 +64,7 @@ class OctoRelayPlugin(
 			),
 			r4=dict(
 				active = True,
-				relay_pin = 23,
+				relay_pin = 5,
 				inverted_output = True,
 				initial_value = False,
 				iconOn = "&#127765;",
@@ -77,7 +77,7 @@ class OctoRelayPlugin(
 			),
 			r5=dict(
 				active = False,
-				relay_pin = 24,
+				relay_pin = 6,
 				inverted_output = True,
 				initial_value = False,
 				iconOn = "ON",
@@ -90,7 +90,7 @@ class OctoRelayPlugin(
 			),
 			r6=dict(
 				active = False,
-				relay_pin = 25,
+				relay_pin = 6,
 				inverted_output = True,
 				initial_value = False,
 				iconOn = "&#128161;",
@@ -103,7 +103,7 @@ class OctoRelayPlugin(
 			),
 			r7=dict(
 				active = False,
-				relay_pin = 8,
+				relay_pin = 7,
 				inverted_output = True,
 				initial_value = False,
 				iconOn = "&#128161;",
@@ -116,7 +116,7 @@ class OctoRelayPlugin(
 			),
 			r8=dict(
 				active = False,
-				relay_pin = 7,
+				relay_pin = 8,
 				inverted_output = True,
 				initial_value = False,
 				iconOn = "&#128161;",
