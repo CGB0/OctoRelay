@@ -1,6 +1,8 @@
 # OctoRelay
 A plugin that adds buttons to the navigation bar to toggle GPIO pins on the Raspberry Pi.
 
+__This fork is to change the starting GPIO pin from 17 which is used on my system for a UPS__
+
 This Plugin was based on the Octolight Plugin by Žiga Kralj (https://github.com/gigibu5/OctoLight) thanks ;-)
 
 ![WebUI interface](img/screenshot.png)
